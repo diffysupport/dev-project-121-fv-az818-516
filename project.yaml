@@ -13,6 +13,7 @@ basic:
         - /2019/01
         - /sample-page
         - /2019/03/12/hello-world
+        - /category/uncategorized
         - /2019/03/01/delectus-quia-esse-aut
         - /2019/04/01/tempora-ut-similique-corporis-sit
         - /2019/02/08/sed-natus-molestiae-ullam-sint-quia
@@ -39,7 +40,7 @@ advanced:
     delay: 10
     scroll: false
     headers:
-        - { value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0', header: user-agent }
+        - { header: user-agent, value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0' }
     cookies: ''
     custom_js: ''
     custom_css: ''
